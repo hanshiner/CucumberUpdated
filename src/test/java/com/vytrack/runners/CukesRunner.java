@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "html:target/default-cucumber-reports",
                 "rerun:target/rerun.txt"
         },
-        tags = {"@negative or @storemanager"},
+        tags = {"@smoke_test"},
         features = {"src/test/resources/features" //to specify where are the features
         },
         //feature contains scenarios
